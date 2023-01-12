@@ -19,7 +19,7 @@ class Foodpage extends StatelessWidget {
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(
-        title: Text("Food's from category!"),
+        title: Text("Food's category is so good!"),
         backgroundColor: Colors.teal,
       ),
       body: ListView.builder(
@@ -41,7 +41,7 @@ class Foodpage extends StatelessWidget {
                   Container(
                     padding: EdgeInsets.all(20),
                     child: ClipRRect(
-                        borderRadius: BorderRadius.circular(10),
+                        borderRadius: BorderRadius.circular(12),
                         clipBehavior: Clip.hardEdge,
                         child: Center(
                           // child: Image.network(food.urlImage),
